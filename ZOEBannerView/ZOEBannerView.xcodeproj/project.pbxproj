@@ -15,6 +15,9 @@
 		72626C371DC9CB1E00CB4BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72626C351DC9CB1E00CB4BAC /* LaunchScreen.storyboard */; };
 		72626C421DC9CB1E00CB4BAC /* ZOEBannerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72626C411DC9CB1E00CB4BAC /* ZOEBannerViewTests.m */; };
 		72626C4D1DC9CB1E00CB4BAC /* ZOEBannerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72626C4C1DC9CB1E00CB4BAC /* ZOEBannerViewUITests.m */; };
+		72626C5D1DC9D1B500CB4BAC /* ZOEBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72626C5C1DC9D1B500CB4BAC /* ZOEBannerView.m */; };
+		72626C601DC9D6D700CB4BAC /* ZOEPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 72626C5F1DC9D6D700CB4BAC /* ZOEPageControl.m */; };
+		72626C631DC9DD1000CB4BAC /* ZOECollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72626C611DC9DD1000CB4BAC /* ZOECollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		72626C481DC9CB1E00CB4BAC /* ZOEBannerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZOEBannerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72626C4C1DC9CB1E00CB4BAC /* ZOEBannerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZOEBannerViewUITests.m; sourceTree = "<group>"; };
 		72626C4E1DC9CB1E00CB4BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72626C5B1DC9D1B500CB4BAC /* ZOEBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOEBannerView.h; sourceTree = "<group>"; };
+		72626C5C1DC9D1B500CB4BAC /* ZOEBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOEBannerView.m; sourceTree = "<group>"; };
+		72626C5E1DC9D6D700CB4BAC /* ZOEPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOEPageControl.h; sourceTree = "<group>"; };
+		72626C5F1DC9D6D700CB4BAC /* ZOEPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOEPageControl.m; sourceTree = "<group>"; };
+		72626C611DC9DD1000CB4BAC /* ZOECollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOECollectionViewCell.m; sourceTree = "<group>"; };
+		72626C621DC9DD1000CB4BAC /* ZOECollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOECollectionViewCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +153,12 @@
 		72626C5A1DC9CB6400CB4BAC /* ZOEBannerView */ = {
 			isa = PBXGroup;
 			children = (
+				72626C621DC9DD1000CB4BAC /* ZOECollectionViewCell.h */,
+				72626C611DC9DD1000CB4BAC /* ZOECollectionViewCell.m */,
+				72626C5E1DC9D6D700CB4BAC /* ZOEPageControl.h */,
+				72626C5F1DC9D6D700CB4BAC /* ZOEPageControl.m */,
+				72626C5B1DC9D1B500CB4BAC /* ZOEBannerView.h */,
+				72626C5C1DC9D1B500CB4BAC /* ZOEBannerView.m */,
 			);
 			path = ZOEBannerView;
 			sourceTree = "<group>";
@@ -282,8 +297,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				72626C2F1DC9CB1E00CB4BAC /* ViewController.m in Sources */,
+				72626C5D1DC9D1B500CB4BAC /* ZOEBannerView.m in Sources */,
 				72626C2C1DC9CB1E00CB4BAC /* AppDelegate.m in Sources */,
 				72626C291DC9CB1E00CB4BAC /* main.m in Sources */,
+				72626C601DC9D6D700CB4BAC /* ZOEPageControl.m in Sources */,
+				72626C631DC9DD1000CB4BAC /* ZOECollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
