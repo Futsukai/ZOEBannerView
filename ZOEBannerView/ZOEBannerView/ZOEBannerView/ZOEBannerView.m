@@ -55,7 +55,7 @@ NSString *const bannerCellID = @"ZOEBannerCellID";
 #pragma mark - UICollectionViewDataSource
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    if (_imageGroup.count > 1) {
+    if (_imageGroup.count > 1 || _imageGroup == nil) {
         return 3;
     }
     return _imageGroup.count;
@@ -63,6 +63,10 @@ NSString *const bannerCellID = @"ZOEBannerCellID";
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     ZOECollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:bannerCellID forIndexPath:indexPath];
+    if (!_imageGroup) {
+        [cell setImage:_placeHoldImage];
+        return cell;
+    }
     NSInteger index = (_currentIndex + indexPath.item - 1 + self.imageGroup.count) % self.imageGroup.count;
     id temp =self.imageGroup[index];
     if ([temp isKindOfClass:[UIImage class]]) {

@@ -27,7 +27,7 @@
 //                        @"https://qiushibao-img.oss-cn-beijing.aliyuncs.com/84c7818bb8550bf7007e6a25be7dc2b3"];
     NSArray *imgAry = @[@"https://qiushibao-img.oss-cn-beijing.aliyuncs.com/4c6e10ce58fa96ac2ccdc3c742fc22e6"];
     [self.view addSubview: view];
-    [view setImageGroup:imgAry];
+//    [view setImageGroup:imgAry];
     [view setCurrentPageColor:[UIColor redColor]];
 }
 
