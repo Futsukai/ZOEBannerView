@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ZOEBannerView"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "AdView or LoopView"
   s.homepage     = "https://github.com/KuratasZ"
   s.license      = "MIT"
